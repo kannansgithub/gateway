@@ -27,6 +27,10 @@ builder.Services.AddCors(options =>
     });
 var app = builder.Build();
 app.UseCors(MyAllowSpecificOrigins);
+app.MapGet("/hc", () =>
+{
+    return Results.Ok("Api Working");
+});
 // app.UseHttpsRedirection();
 // [FromHeader(Name = "X-Razorpay-Signature")] string signature
 app.MapPost("/payment-verification", (IConfiguration configuration, HttpContext ctx, [FromBody] RazorpayResponse paymentResult, [FromHeader(Name = "X-Razorpay-Signature")] string expectedSignature) =>
