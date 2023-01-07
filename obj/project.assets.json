@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {
+    "net6.0": {
       "Newtonsoft.Json/12.0.3": {
         "type": "package",
         "compile": {
@@ -76,7 +76,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net7.0": [
+    "net6.0": [
       "RazorPay.Core >= 1.0.2"
     ]
   },
@@ -87,11 +87,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\WorkPlace\\Learning\\MicroService\\UAK_ECom\\MyCart\\src\\services\\Payment\\MyCart.Payment\\MyCart.Payment.csproj",
+      "projectUniqueName": "D:\\WorkPlace\\Learning\\MicroService\\Sample\\MyCart.Payment\\MyCart.Payment.csproj",
       "projectName": "MyCart.Payment",
-      "projectPath": "D:\\WorkPlace\\Learning\\MicroService\\UAK_ECom\\MyCart\\src\\services\\Payment\\MyCart.Payment\\MyCart.Payment.csproj",
+      "projectPath": "D:\\WorkPlace\\Learning\\MicroService\\Sample\\MyCart.Payment\\MyCart.Payment.csproj",
       "packagesPath": "C:\\Users\\kanna\\.nuget\\packages\\",
-      "outputPath": "D:\\WorkPlace\\Learning\\MicroService\\UAK_ECom\\MyCart\\src\\services\\Payment\\MyCart.Payment\\obj\\",
+      "outputPath": "D:\\WorkPlace\\Learning\\MicroService\\Sample\\MyCart.Payment\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -102,7 +102,7 @@
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net7.0"
+        "net6.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -110,8 +110,8 @@
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "projectReferences": {}
         }
       },
@@ -122,8 +122,8 @@
       }
     },
     "frameworks": {
-      "net7.0": {
-        "targetAlias": "net7.0",
+      "net6.0": {
+        "targetAlias": "net6.0",
         "dependencies": {
           "RazorPay.Core": {
             "target": "Package",

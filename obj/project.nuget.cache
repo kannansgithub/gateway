@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ej2BJCHEk/6nMMsHEy6SpZ59Trr0Pnwz4IDmh4Jf8heg//I89hl27XsyEr9yJubEVH92tmtzlfumQL0Js0rmPg==",
+  "dgSpecHash": "cM1Ph1W/oJ5Yt+giij0T9F2ZoMGCsq74BVwtomWBGRkMuEye0Y78mthfKP4aPEW5USKq+RuWV8yOfeYNQy92Jg==",
   "success": true,
-  "projectFilePath": "D:\\WorkPlace\\Learning\\MicroService\\UAK_ECom\\MyCart\\src\\services\\Payment\\MyCart.Payment\\MyCart.Payment.csproj",
+  "projectFilePath": "D:\\WorkPlace\\Learning\\MicroService\\Sample\\MyCart.Payment\\MyCart.Payment.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kanna\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Users\\kanna\\.nuget\\packages\\razorpay.core\\1.0.2\\razorpay.core.1.0.2.nupkg.sha512"
